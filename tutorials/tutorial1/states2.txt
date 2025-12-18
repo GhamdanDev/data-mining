@@ -1,0 +1,5 @@
+MI,Michigan,Lansing
+CA,California,Sacramento
+TX,Texas,Austin
+MN,Minnesota,St Paul
+test,Test,St snaa
