@@ -1,0 +1,77 @@
+# .gitignore - tailored for this project
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual environments (this project has a local venv named dm-lab)
+dm-lab/
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.nb.html
+
+# Logs, reports, coverage
+*.log
+logs/
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Sensitive / local settings
+.env
+.env.*
+secrets.*
+credentials.json
+*.pem
+*.key
+
+# Data: ignore specific known raw/dirty dataset and offer a pattern for raw data
+# If you prefer to keep tutorial datasets (small CSVs) tracked, leave the following line commented.
+dirty_employee_dataset.csv
+# To ignore a dedicated data directory, move large/raw files into `/data/` and uncomment:
+# /data/
+# or to ignore all CSVs (not recommended if tutorials include CSVs)
+# *.csv
+
+# Notebook outputs, figures, reports
+outputs/
+figures/
+reports/
+
+# Misc
+*.pyc
+*~
+*.swp
+
+# End of .gitignore
