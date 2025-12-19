@@ -1,7 +1,7 @@
 # .gitignore - tailored for this project
 
 #me
-*.o
+*.o/
 # Python bytecode / caches
 
 __pycache__/
